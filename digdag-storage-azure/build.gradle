@@ -1,0 +1,9 @@
+
+dependencies {
+    compile project(':digdag-spi')
+    compile project(':digdag-plugin-utils')
+    testCompile project(':digdag-core')
+
+    compile 'com.microsoft.azure:azure-storage:4.4.0'
+    compile 'commons-logging:commons-logging:1.2'
+}
